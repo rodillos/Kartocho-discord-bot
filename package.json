@@ -1,0 +1,27 @@
+{
+  "name": "kartocho-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that randomly do the draw for mario kart 8 deluxe courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rodillos/Kartocho-discord-bot.gitgit@github.com:rodillos/Kartocho-discord-bot.git"
+  },
+  "keywords": [
+    "mario",
+    "kart",
+    "deluxe",
+    "switch",
+    "discord",
+    "bot",
+    "draw"
+  ],
+  "author": "Rodrigo Boto Corbal",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.17.3"
+  }
+}
