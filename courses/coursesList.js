@@ -15,7 +15,7 @@ const CupList = [
         cupName: 'Star',
         dlc: false,
         icon : 'Star',
-        courses: ['Sunshine Airport', 'Dolphin Shoals', 'Electrodrome', 'Monte Wario']
+        courses: ['Sunshine Airport', 'Dolphin Shoals', 'Electrodrome', 'Cumbre Wario']
     },
     {
         cupName: 'Special',
@@ -75,73 +75,73 @@ const CupList = [
         cupName: 'Golden Dash',
         dlc: true,
         icon : 'Mushroom Yellow',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Lucky Cat',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Turnip',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Propeller',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Rock',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Moon',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Fruit',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Boomerang',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Feather',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Cherry',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Acorn',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     {
         cupName: 'Spiny',
         dlc: true,
         icon : '',
-        courses: ['trac 1', 'trac 2', 'track 3', 'track 4']
+        courses: ['track 1', 'track 2', 'track 3', 'track 4']
     },
     ];
     
