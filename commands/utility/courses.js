@@ -1,6 +1,7 @@
 const { SlashCommandBuilder } = require('discord.js');
 const CupList =  require('../../courses/coursesList.js');
 const { count } = require('console');
+const user = require('./user.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -24,13 +25,17 @@ module.exports = {
 		.join('\n');
 	
 		// Enviar respuesta
-		await interaction.reply(`Aquí tienes ${amount} pistas aleatorias:\n${replyMessage}`);
+		if(interaction.user.username.includes('calle') || interaction.user.username.includes('mema')) {
+			await interaction.reply('Lo siento, no se que significa guh guh guh guh ');
+			await interaction.followUp('No funciono con altas putas entangadas, que intente un usuario competente');
+		} else {
+			await interaction.reply(`Aquí tienes ${amount} pistas aleatorias:\n${replyMessage}`);
+		}
 	},
 };
 
   // Función para obtener un course aleatorio junto con su cupName
   function getRandomCourse(count, userName) {
-	let randomCourses = [];
 	let index = 0;
 
 	if(count > 48){ return [{cupName: 'Clown (25)', course: userName, dlc: true}];}
